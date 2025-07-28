@@ -95,12 +95,17 @@ Output is saved to:
 -----------------
 
 ## 🚧 Future Work
- - Live data plotting using matplotlib
- - Port script to C++ (POSIX serial I/O)
- - Add CLI interface or GUI panel for logging control
- - Visual dashboard using Unity or web app
- - Update micro:bit video with proper script
- - Add demo of USB port data being sent back from micro:bit
+- Live data plotting using `matplotlib` 
+- Add CLI interface or GUI panel for logging control
+- Port script to C++ (POSIX serial I/O)
+- Visual dashboard using Unity or web app 
+- Update micro:bit video with proper script and demonstration
+- Add demo of USB serial output from Micro:bit to terminal
+- Add support for --duration or --mode CLI flags to toggle logging/streaming
+- Export `matplotlib` plots as PNG images for Unity/Web use
+- Use rotating CSV logs or timestamped output files
+- Add replay mode to simulate live streaming from past logs
+- Optional: stream real-time data to a Flask server or WebSocket for remote dashboards
 
 ## 🎥 Demo
 [Watch the demo video of microbit](https://youtube.com/shorts/u0WQgC-p3ss?feature=share)
